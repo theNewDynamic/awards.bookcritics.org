@@ -1,0 +1,28 @@
+.font-primary, .font-brand {
+    @apply .font-serif;
+}
+
+.active {
+  @apply .text-grey-dark .underline;
+}
+.body-color {
+  @apply bg-white text-grey-darkest;
+}
+
+header {
+  @apply .text-primary-color .bg-white
+}
+
+footer {
+  @apply .p-4 .mt-12 .text-sm .text-grey-dark;
+}
+
+@screen md {
+  header {
+    @apply .fixed .pin-t .pin-l .pin-r .z-50
+  }
+  .content {
+    @apply .mt-12
+        }
+
+}

@@ -9,5 +9,5 @@ nominees:
     book: Her Body and Other Parties
     publisher: Graywold
     book_cover: /uploads/2017/Leonard/Machado.jpg
-    image: /uploads/2017/Leonard/carmen-maria-machado.jpg
+    image: /uploads/2017/Leonard/leonard2017.jpg
 ---

@@ -1,0 +1,22 @@
+<footer class="footer w-100 bg-blue-darker border-t mt-8 font-sans" role="contentinfo">
+
+  <div class="text-4xl text-white text-center p-8 mb-6">
+    <p>Visit our main site at <a href="http://bookcritics.org/" class="no-underline text-grey-light">www.bookcritics.org</a></p>
+  </div>
+
+  <div class="flex justify-between items-center">
+    <div class="flex items-center">
+      <a class="f7 fw4 hover:text-white no-underline px-3 color-inherit" href="{{ .Site.BaseURL }}" >
+        &copy; {{ now.Format "2006" }} {{ .Site.Title }}
+      </a>
+      {{ with .Site.GetPage "page" "privacy-policy.md" }}
+        <a class="f7 fw4 hover:text-white no-underline px-3 color-inherit" href="/privacy-policy/" >Privacy Policy</a>
+      {{ end }}
+      {{ partial "_components/social-follow.html" (dict "cx" . "icon_size" "24px") }}
+    </div>
+
+    <a class="dn md:inline-block f7 fw4 hover:text-gray no-underline px-3 py-2 color-inherit" href="https://thenewdynamic.com" >
+      site by the New Dynamic
+    </a>
+  </div>
+</footer>

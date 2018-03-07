@@ -1,12 +1,44 @@
 {{ define "main" }}
+  <div class="mx-auto">
+
+
+
+    {{ range $i, $awards_individual := where .Site.RegularPages ".Params.category" "ne" "individual"}}
+    {{if not (modBool $i 2)}}
+      {{.Scratch.Set "order" "md:flex-row-reverse" }}
+      {{else}}
+      {{.Scratch.Set "order" "md:flex-row" }}
+    {{end}}
+      {{partial "panel-multi-books.html" (dict "item" . "order" (.Scratch.Get "order") )}}
+    {{ end }}
 
 
 
 
-<div class="min-h-ful p-8">
 
-  hello world
 
-</div>
 
+
+
+
+
+
+
+    	{{ range $i, $awards_individual := where .Site.RegularPages ".Params.category" "individual"}}
+      {{if not (modBool $i 2)}}
+        {{.Scratch.Set "order" "md:flex-row-reverse" }}
+        {{else}}
+        {{.Scratch.Set "order" "md:flex-row" }}
+      {{end}}
+        {{partial "panel-50-50.html" (dict "item" . "order" (.Scratch.Get "order") )}}
+      {{ end }}
+
+
+
+
+
+
+
+
+  </div>
 {{ end }}

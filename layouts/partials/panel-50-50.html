@@ -1,0 +1,44 @@
+{{with .item.Params.nominees}}
+  {{range .}}
+    <section class="border-t border-b bg-grey-lightest md:flex {{$.order}} relative">
+
+      {{with .image}}
+        <div class="md:w-1/2 bg-no-repeat bg-center bg-cover" style="background-image:url({{.}}); height:400px;">
+            <!-- image -->
+        </div>
+      {{end}}
+
+      <article class="p-8 max-w-sm md:flex md:flex-col md:justify-center lg:px-32 lg:max-w-md">
+        <h2 class="leading-tight block uppercase tracking-wide text-grey-dark text-2xl leading-loose">
+          {{- $.item.Title -}}
+        </h2>
+        {{with .name}}
+          <h3 class="mt-2 text-grey-darkest">
+            {{- . -}}
+          </h3>
+        {{end}}
+      </article>
+
+      {{with .image_credit}}
+        <div class="text-xs font-sans md:absolute pin-r pin-b p-8 text-grey-dark">
+          {{- . -}}
+        </div>
+      {{end}}
+
+    </section>
+  {{end}}
+{{end}}
+
+{{/*
+ The Spirit itself beareth witness with our spirit, that we are the “children of God
+ */}}
+{{/*
+
+
+
+{{ range $images }}
+<div class="Image">
+<img src="{{ .RelPermalink }}">
+</div>
+{{ end }}
+*/}}

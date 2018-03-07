@@ -1,0 +1,23 @@
+{{with .item.Params.nominees}}
+  <section class=" {{$.order}} relative p-8 mx-4">
+    <h2 class="leading-tight block uppercase tracking-wide text-grey-dark text-4xl leading-loose">
+      {{- $.item.Title -}}
+    </h2>
+
+    <div class="md:flex justify-between">
+      {{range .}}
+
+          <div class="">
+            <img src="{{.image}}" alt="{{.book}}" class="border h-80">
+            {{with .name}}
+              <h3 class="mt-2 text-grey-darkest font-sans">
+                {{- . -}}
+              </h3>
+            {{end}}
+          </div>
+
+
+      {{end}}
+    </div>
+</section>
+{{end}}

@@ -1,4 +1,5 @@
 ---
+title: National Book Critics Circle Awards
 DefaultContentLanguage: en
 MetaDataFormat: yaml
 Paginate: 300
@@ -25,35 +26,10 @@ menu:
       url: /
       weight: 1
     -
-      identifier: books
-      name: Books
-      url: /book/
-      weight: 10
-    -
       identifier: news
       name: "News"
       url: /news/
       weight: 20
-    -
-      identifier: writing
-      name: Writing
-      url: /writing/
-      weight: 30
-    -
-      identifier: events
-      name: Events
-      url: /events/
-      weight: 40
-    -
-      identifier: events
-      name: Events
-      url: /event/
-      weight: 50
-    -
-      identifier: about
-      name: About
-      url: /about/
-      weight: 60
 outputFormats:
   HEADERS:
     baseName: _headers
@@ -71,7 +47,7 @@ outputs:
     - HEADERS
     - REDIR
 params:
-  description: "Build Faster Better Websites with modern tools and techniques"
+  description: "national book critics circle"
   logo: ""
   dev:
     fonts_path: "static/dist/Fonts"

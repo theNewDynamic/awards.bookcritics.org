@@ -3,7 +3,7 @@ title: "John Leonard Prize"
 date: 2018-03-06T20:43:04-05:00
 category: individual
 description:
-weight: 
+weight: 2
 nominees:
   - name: Carmen Maria Machado
     book: Her Body and Other Parties

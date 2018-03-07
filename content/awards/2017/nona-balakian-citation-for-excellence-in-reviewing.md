@@ -3,7 +3,7 @@ title: "Nona Balakian Citation for Excellence in Reviewing"
 date: 2018-03-06T20:51:32-05:00
 category: individual
 description:
-weight: 
+weight: 1
 nominees:
   - name: Charles Finch 
     book:

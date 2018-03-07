@@ -519,6 +519,8 @@ module.exports = {
     "80": "20rem",
     full: "100%",
     screen: "100vh",
+    vh43: "43vh",
+    vh33: "33vh",
   },
 
   /*
@@ -631,6 +633,7 @@ module.exports = {
     "4": "1rem",
     "6": "1.5rem",
     "8": "2rem",
+    "16": "4rem",
     "12": "8rem",
   },
 

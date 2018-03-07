@@ -203,8 +203,22 @@ module.exports = {
   */
 
   fonts: {
+    brand: [
+      "Halant",
+      "'Vesper Libre'",
+      "Constantia",
+      "Lucida Bright",
+      "Lucidabright",
+      "Lucida Serif",
+      "Lucida",
+      "DejaVu Serif",
+      "Bitstream Vera Serif",
+      "Liberation Serif",
+      "Georgia",
+      "serif",
+    ],
     sans: [
-      "Lora",
+      "Poppins",
       "Lato",
       "Avenir Next W00",
       "Avenir Next",
@@ -223,6 +237,8 @@ module.exports = {
       "sans-serif",
     ],
     serif: [
+      "Halant",
+      "Lora",
       "'Vesper Libre'",
       "Constantia",
       "Lucida Bright",

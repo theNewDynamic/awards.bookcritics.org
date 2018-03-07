@@ -38,8 +38,11 @@
     "style-loader": "^0.20.1",
     "tailwindcss": "^0.4.1",
     "turbolinks": "^5.1.1",
+    "typeface-eb-garamond": "^0.0.54",
+    "typeface-halant": "^0.0.54",
     "typeface-lato": "0.0.54",
     "typeface-lora": "^0.0.54",
+    "typeface-poppins": "^0.0.54",
     "webpack": "^3.10.0",
     "webpack-merge": "^4.1.2"
   }

@@ -4075,6 +4075,14 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
 
+typeface-eb-garamond@^0.0.54:
+  version "0.0.54"
+  resolved "https://registry.yarnpkg.com/typeface-eb-garamond/-/typeface-eb-garamond-0.0.54.tgz#5274c1c8b5ceecaf64c4fa810a4b26c6d73359bf"
+
+typeface-halant@^0.0.54:
+  version "0.0.54"
+  resolved "https://registry.yarnpkg.com/typeface-halant/-/typeface-halant-0.0.54.tgz#f8f7b99eb75ac7e4b1f977e9bf52759d89265daf"
+
 typeface-lato@0.0.54:
   version "0.0.54"
   resolved "https://registry.yarnpkg.com/typeface-lato/-/typeface-lato-0.0.54.tgz#6ea56309a8b0cfdb7e8246e05de4b58b8272b47c"
@@ -4082,6 +4090,10 @@ typeface-lato@0.0.54:
 typeface-lora@^0.0.54:
   version "0.0.54"
   resolved "https://registry.yarnpkg.com/typeface-lora/-/typeface-lora-0.0.54.tgz#7767eeaf17bf066b8faf25f3057dd5eaa0a9f39a"
+
+typeface-poppins@^0.0.54:
+  version "0.0.54"
+  resolved "https://registry.yarnpkg.com/typeface-poppins/-/typeface-poppins-0.0.54.tgz#58c90da107a14db1e359f4d339cb2cc8e098d37b"
 
 uglify-js@^2.8.29:
   version "2.8.29"

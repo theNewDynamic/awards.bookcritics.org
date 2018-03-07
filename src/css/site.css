@@ -1,5 +1,5 @@
 .font-primary, .font-brand {
-    @apply .font-sans;
+    @apply .font-serif;
 }
 
 .active {

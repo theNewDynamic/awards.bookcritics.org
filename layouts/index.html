@@ -3,6 +3,35 @@
 
 
 
+
+
+
+    <section class="p-8">
+         <div class="container mx-auto md:flex items-center">
+           <article class="md:w-1/2 max-w-sm md:py-8 lg:py-32 lg:max-w-md">
+             <h2 class="block uppercase tracking-wide text-grey-dark text-sm leading-loose">Details</h2>
+               <div class="leading-normal mt-4 text-2xl font-medium">
+                 {{- .Content -}}
+               </div>
+           </article>
+           <div class="md:w-1/2 md:py-8 lg:py-32 lg:max-w-md text-center">
+             <p class="text-center font-sans text-2xl">Get tickets to the benefit after-party</p>
+
+             {{partial "form-buy.html" .}}
+
+
+           </div>
+         </div>
+       </section>
+
+
+
+
+
+
+
+
+
     {{ range $i, $awards_individual := where .Site.RegularPages ".Params.category" "ne" "individual"}}
     {{if not (modBool $i 2)}}
       {{.Scratch.Set "order" "md:flex-row-reverse" }}
@@ -22,16 +51,18 @@
 
 
 
+<div class="my-8">
 
 
-    	{{ range $i, $awards_individual := where .Site.RegularPages ".Params.category" "individual"}}
-      {{if not (modBool $i 2)}}
-        {{.Scratch.Set "order" "md:flex-row-reverse" }}
-        {{else}}
-        {{.Scratch.Set "order" "md:flex-row" }}
-      {{end}}
-        {{partial "panel-50-50.html" (dict "item" . "order" (.Scratch.Get "order") )}}
-      {{ end }}
+      	{{ range $i, $awards_individual := where .Site.RegularPages ".Params.category" "individual"}}
+        {{if not (modBool $i 2)}}
+          {{.Scratch.Set "order" "md:flex-row-reverse" }}
+          {{else}}
+          {{.Scratch.Set "order" "md:flex-row" }}
+        {{end}}
+          {{partial "panel-50-50.html" (dict "item" . "order" (.Scratch.Get "order") )}}
+        {{ end }}
+</div>
 
 
 
@@ -41,4 +72,9 @@
 
 
   </div>
+
+
+
+  
+
 {{ end }}

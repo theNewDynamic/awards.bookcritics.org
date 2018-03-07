@@ -1,5 +1,5 @@
 ---
-title: National Book Critics Circle Awards
+title: National Book Critics Circle 2017 Awards
 DefaultContentLanguage: en
 MetaDataFormat: yaml
 Paginate: 300
@@ -18,18 +18,18 @@ mediaTypes:
   text/netlify:
     delimiter: ""
     suffix: ""
-menu:
-  main:
-    -
-      identifier: home
-      name: "Home"
-      url: /
-      weight: 1
-    -
-      identifier: news
-      name: "News"
-      url: /news/
-      weight: 20
+# menu:
+#   main:
+#     -
+#       identifier: home
+#       name: "Home"
+#       url: /
+#       weight: 1
+#     -
+#       identifier: news
+#       name: "News"
+#       url: /news/
+#       weight: 20
 outputFormats:
   HEADERS:
     baseName: _headers
@@ -69,7 +69,7 @@ sitemap:
   priority: 0.5
 social:
   facebook:
-  twitter:
+  twitter: bookcritics
   instagram:
 taxonomies:
   series: series

@@ -1,5 +1,5 @@
 .font-primary, .font-brand {
-    @apply .font-serif;
+    @apply .font-sans;
 }
 
 .active {
@@ -10,11 +10,17 @@
 }
 
 header {
-  @apply .text-primary-color .bg-white
+  @apply .text-grey-light .bg-black
 }
 
 footer {
   @apply .p-4 .mt-12 .text-sm .text-grey-dark;
+}
+
+.gradient-text {
+  /* background: -webkit-linear-gradient(blue, black);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; */
 }
 
 @screen md {

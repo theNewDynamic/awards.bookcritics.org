@@ -2,7 +2,7 @@
 title: "Autobiography"
 date: 2018-03-06T21:19:10-05:00
 description:
-weight: 
+weight:  3
 nominees:
   - name: Thi Bui
     book: "The Best We Could Do: An Illustrated Memoir"

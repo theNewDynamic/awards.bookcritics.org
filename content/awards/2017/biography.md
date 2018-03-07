@@ -2,7 +2,7 @@
 title: "Biography"
 date: 2018-03-06T21:18:57-05:00
 description:
-weight: 
+weight: 2
 nominees:
   - name: Caroline Fraser 
     book: "Prairie Fires: The American Dreams of Laura Ingalls Wilder"

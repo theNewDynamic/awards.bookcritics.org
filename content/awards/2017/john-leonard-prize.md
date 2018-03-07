@@ -8,6 +8,6 @@ nominees:
   - name: Carmen Maria Machado
     book: Her Body and Other Parties
     publisher: Graywold
-    #image: /uploads/2017/Leonard/Machado.jpg
+    book_cover: /uploads/2017/Leonard/Machado.jpg
     image: /uploads/2017/Leonard/carmen-maria-machado.jpg
 ---

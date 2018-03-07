@@ -1,0 +1,13 @@
+<div class="ticker-wrap hidden md:block">
+  <div class="ticker">
+    <div class="ticker__item">National Book Critics Circle 2017 Awards Finalists: </div>
+
+    {{range .Sections}}
+      {{range .Pages}}
+        {{range .Params.nominees}}
+          <div class="ticker__item">{{.name}}</div>
+        {{end}}
+      {{ end }}
+    {{ end }}
+  </div>
+</div>

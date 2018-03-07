@@ -2,7 +2,7 @@
 title: "Fiction"
 date: 2018-03-06T21:20:48-05:00
 description:
-weight: 
+weight: 6
 nominees:
     - name: Mohsin Hamid
       book: Exit West

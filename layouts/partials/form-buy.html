@@ -1,0 +1,36 @@
+{{$page := .Site.GetPage "home"}}
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="paypal" id="paypal_form">
+
+<input type="hidden" value="/thank-you/" name="return" />
+<input type="hidden" value="/cancel/" name="cancel_return" />
+
+<input type="hidden" name="business" value="membership@bookcritics.org" />
+
+<input type="hidden" name="item_name" value="{{$page.Params.ticket_name}}" />
+<input type="hidden" name="item_number" value="1" />
+<!-- <input type="hidden" name="amount" value="100" /> -->
+
+<input type="hidden" name="add" value="1" />
+<input type="hidden" name="no_note" value="1" />
+
+<input type="hidden" name="no_shipping" value="2" />
+<input type="hidden" name="cmd" value="_donations">
+
+<!-- <button type="image" class="button" name="submit" border="0">Donate</button><br /> -->
+
+{{with $page.Params.tickets}}
+  {{range .}}
+    <button type="submit" href="javascript: submitform()" name="amount" value="{{.price | int}}.00" class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded m-4">
+      {{.name}}<span class="f4 mr-1 ml-2">$</span>{{.price}}
+    </button>
+  {{end}}
+{{end}}
+
+
+{{/*
+<br />
+<img src="/uploads/1438694198025_paypal.png" style="width:100px;margin-top:2.25em;"> */}}
+
+
+</form>

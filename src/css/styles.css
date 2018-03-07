@@ -2,7 +2,8 @@
 @import "tailwind";
 
 /* Modules */
-@import "modules/_social-icons-inverse";
+@import "modules/_social-icons";
+@import "modules/_ticker";
 @import "modules/_hovers";
 @import "modules/_utilities";
 

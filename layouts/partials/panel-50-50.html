@@ -8,7 +8,7 @@
         </div>
       {{end}}
 
-      <article class="p-8 max-w-sm md:flex md:flex-col md:justify-center lg:px-32 lg:max-w-md">
+      <article class="p-8 max-w-sm md:flex md:flex-col md:justify-center lg:px-32 lg:max-w-md bg-no-repeat bg-right-bottom bg-contain">
         <h2 class="leading-tight block uppercase tracking-wide text-grey-dark text-2xl leading-loose">
           {{- $.item.Title -}}
         </h2>
@@ -17,7 +17,11 @@
             {{- . -}}
           </h3>
         {{end}}
+
       </article>
+      {{/*
+        <img src="" alt="" class="w-64">
+      {{end}} */}}
 
       {{with .image_credit}}
         <div class="text-xs font-sans md:absolute pin-r pin-b p-8 text-grey-dark">

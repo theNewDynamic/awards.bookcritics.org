@@ -57,7 +57,7 @@ let colors = {
   //'text-color-disabled':  ,
   //'divider-color':        ,
   //'warn-color': var(--dark-red);
-
+  "black-70": "rgba(0,0,0,.7)",
   black: "#22292f",
   "grey-darkest": "#3d4852",
   "grey-darker": "#606f7b",
@@ -108,8 +108,9 @@ let colors = {
   "teal-lighter": "#a0f0ed",
   "teal-lightest": "#e8fffe",
 
+  "blue-85": "rgba(7,45,90,.85)",
   "blue-darkest": "#12283a",
-  "blue-darker": "#30447E",
+  "blue-darker": "#213a65",
   "blue-dark": "#2779bd",
   blue: "#3490dc",
   "blue-light": "#6cb2eb",
@@ -203,6 +204,7 @@ module.exports = {
 
   fonts: {
     sans: [
+      "Lora",
       "Lato",
       "Avenir Next W00",
       "Avenir Next",

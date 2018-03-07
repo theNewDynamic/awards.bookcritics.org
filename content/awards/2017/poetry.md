@@ -2,7 +2,7 @@
 title: "Poetry"
 date: 2018-03-06T21:19:21-05:00
 description:
-weight: 
+weight: 4
 nominees:
     - name: Nuar Alsadir
       book: Fourth Person Singular

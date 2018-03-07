@@ -1,19 +1,27 @@
 {{with .item.Params.nominees}}
   <section class=" {{$.order}} relative p-8 mx-4">
-    <h2 class="leading-tight block uppercase tracking-wide text-grey-dark text-4xl leading-loose">
+    <h2 class="leading-tight gradient-text block uppercase tracking-wide text-grey-dark text-5xl leading-loose">
       {{- $.item.Title -}}
     </h2>
 
-    <div class="md:flex justify-between">
+    <div class="md:flex justify-between align-top">
       {{range .}}
 
-          <div class="">
-            <img src="{{.image}}" alt="{{.book}}" class="border h-80">
+          <div class="lg:w-1/5 px-2">
+
+              <img src="{{.image}}" alt="{{.book}}" class="md:w-3/4 lg:w-full shadow-md">
+
             {{with .name}}
               <h3 class="mt-2 text-grey-darkest font-sans">
                 {{- . -}}
               </h3>
             {{end}}
+            {{with .book}}
+              <span class="mt-2 text-xs text-grey-darkest font-sans">
+                {{- . -}}
+              </span>
+            {{end}}
+
           </div>
 
 

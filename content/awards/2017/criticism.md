@@ -2,7 +2,7 @@
 title: "Criticism"
 date: 2018-03-06T21:20:24-05:00
 description:
-weight: 
+weight: 5
 nominees:
     - name: Carina Chocano
       book: "You Play the Girl: On Playboy Bunnies, Stepford Wives, Train Wrecks, & Other Mixed Messages"

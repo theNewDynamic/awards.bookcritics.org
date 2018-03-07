@@ -37,13 +37,15 @@
   animation-duration: 60s;
 }
 .ticker-wrap .ticker__item {
-  display: inline-block;
-  padding: 0 2rem;
+  @apply .px-4 inline-block text-grey-lighter text-xl;
 
-  color: white;
-  @apply text-xl;
 }
 /*
 body {
   padding-bottom: 4rem;
 } */
+@screen md {
+.ticker-wrap .ticker__item {
+  @apply .px-8
+  }
+}

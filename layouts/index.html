@@ -10,7 +10,7 @@
                </div>
            </article>
            <div class="md:w-1/2 md:py-8 lg:py-32 lg:max-w-md text-center">
-             <p class="text-center font-sans text-2xl">Get tickets to the benefit after-party</p>
+             <p class="text-center font-sans text-2xl">Get tickets to the benefit after-party:</p>
              {{partial "form-buy.html" .}}
            </div>
          </div>
@@ -29,7 +29,7 @@
          {{ end }}
        </div>
 
-       
+
 
     {{ range $i, $awards_individual := where .Site.RegularPages ".Params.category" "ne" "individual"}}
     {{if not (modBool $i 2)}}

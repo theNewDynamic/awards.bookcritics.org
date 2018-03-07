@@ -1,13 +1,15 @@
 <header class="h-screenf relative bg-blue-darker text-white hero-pattern bg-center bg-no-repeat bg-contain lg:bg-cover" style="background-image:url(/uploads/NBCC-Logo_Inline_upgrade_1.17.2018.jpg);height:50vh;">
     <div class=" h-full mx-auto bg-blue-85">
 
-      {{/* {{partial "_global/navigation.html" .}} */}}
+      {{partial "_global/navigation.html" .}}
 
-      <div class="flex-grow flex flex-col justify-center px-8  py-8">
+      {{/* <div class="flex-grow flex flex-col justify-center px-8  py-8">
           <div class="sm:mt-4">
-            <h1 class="pl-8 leading-tight block uppercase tracking-wide">{{.Site.Title}}</h1>
+            <h1 class="pl-8 leading-tight block uppercase tracking-wide">
+              {{.Site.Title}}
+            </h1>
         </div>
-      </div>
+      </div> */}}
     </div>
     {{partial "ticker.html" .}}
   </header>

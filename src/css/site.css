@@ -10,7 +10,15 @@
 }
 
 header {
-  @apply .text-grey-light .bg-black
+  @apply .text-grey-light .bg-black;
+  /* border-bottom-left-radius: 50% 20%; */
+ /* border-bottom-right-radius: 20% 98%; */
+ /* border: white solid 12px; */
+}
+
+header div {
+  /* border-bottom-left-radius: 20% 20%; */
+ /* border-bottom-right-radius: 20% 98%; */
 }
 
 footer {

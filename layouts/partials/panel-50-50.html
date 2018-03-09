@@ -1,5 +1,5 @@
-{{with .item.Params.nominees}}
-  {{range .}}
+{{with .item.Params.winner}}
+
     <section class="border-t border-b bg-grey-lightest md:flex {{$.order}} relative">
 
       {{with .image}}
@@ -30,7 +30,7 @@
       {{end}}
 
     </section>
-  {{end}}
+
 {{end}}
 
 {{/*

@@ -45,7 +45,7 @@ View the full documentation at https://tailwindcss.com.
 let colors = {
   transparent: "transparent",
 
-  "primary-color": "#8c1613",
+  "primary-color": "#213a65",
   //'primary-color-dark':   ,
   //'primary-color-light':  ,
   //'accent-color':         ,

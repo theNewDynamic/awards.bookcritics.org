@@ -18,18 +18,18 @@ mediaTypes:
   text/netlify:
     delimiter: ""
     suffix: ""
-# menu:
-#   main:
-#     -
-#       identifier: home
-#       name: "Home"
-#       url: /
-#       weight: 1
-#     -
-#       identifier: news
-#       name: "News"
-#       url: /news/
-#       weight: 20
+menu:
+  main:
+    -
+      identifier: home
+      name: "Home"
+      url: /
+      weight: 1
+    -
+      identifier: news
+      name: "News"
+      url: /news/
+      weight: 20
 outputFormats:
   HEADERS:
     baseName: _headers
